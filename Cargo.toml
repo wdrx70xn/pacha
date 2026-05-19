@@ -1,4 +1,5 @@
 [package]
+build = "build.rs"
 exclude = ["tests/", "benches/", "docs/", ".github/", "book/", ".pmat/", "target/", ".profraw", ".profdata", ".vscode/", ".idea/", "proptest-regressions/"]
 name = "pacha"
 version = "0.2.6"
